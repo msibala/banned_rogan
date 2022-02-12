@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+    <script src="list.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+    <title>JRo Archive</title>
+</head>
+<body>
+   <header class="header">
+        <h1><red>BANNED</red> ROGAN</h1>
+        <h2>Every episode of the Joe Rogan Experience pulled from Spotify.</h2>
+   </header>
+   <div class="container">
+    <section class="main">
+        <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        autoplay="true"
+        data-setup="{}"
+        >
+        <source src="https://ia601708.us.archive.org/35/items/jre-1251-1476/JRE_1251-1476/Joe%20Rogan%20Experience%20%231251%20-%20Tim%20Dillon.mp4" type="video/mp4" />
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+          >
+        </p>
+        </video>
+    </section>
+    <section class="sidebar">
+      <div id="episode-list">
+        <input class="search" placeholder="Search" />
+        <button class="sort" data-sort="name">
+          Sort by name
+        </button>
+   
+        <ul class="list"></ul>
+ 
+        </div>
+        <script src="episode_list.js"></script>
+   </div>
+
+   <div class="footer">
+    <p>DISCLAIMER: This website is not affiliated in any way with Joe Rogan or Spotify, and does not host any Joe Rogan content.</p>
+    <br>
+    <p>All content consists of links to archive.org, a repository of information for educational use. Get vaccinated.</p>
+
+</div>
+ <!-- <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script> -->
+</body>
+
